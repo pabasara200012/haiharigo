@@ -1,0 +1,8 @@
+<svg width="260" height="60" viewBox="0 0 260 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="260" height="60" rx="18" fill="#0A2F6B"/>
+  <circle cx="40" cy="30" r="18" fill="#58C13D"/>
+  <path d="M32 26C32 22.6863 34.6863 20 38 20H54C57.3137 20 60 22.6863 60 26V34C60 37.3137 57.3137 40 54 40H38C34.6863 40 32 37.3137 32 34V26Z" fill="#FFFFFF"/>
+  <path d="M38 24L46 30L38 36V24Z" fill="#0A2F6B"/>
+  <text x="80" y="38" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="24" font-weight="800">Hariහරි</text>
+  <text x="193" y="38" fill="#58C13D" font-family="Inter, sans-serif" font-size="24" font-weight="800">Go</text>
+</svg>
