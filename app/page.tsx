@@ -1,22 +1,22 @@
 const services = [
   {
     title: 'ඖෂධ බෙදාහැරීම',
-    description: 'නගරයේ පුරාම ප්‍රතිකාර යෝජනා සහ ෆාමසි අවශ්‍යතා ඉක්මනින් හා ආරක්ෂිතව.',
+    description: 'ඔබට අවශ්‍ය ඖෂධ සහ ෆාමසි භාණ්ඩ ඉක්මනින්, ආරක්ෂිතව සහ විශ්වාසනීයව ඔබගේ දොරකඩටම .',
     icon: '💊',
   },
   {
     title: 'පාරිභෝගික භාණ්ඩ',
-    description: 'දෛනික අවශ්‍ය භාණ්ඩ සහ තැටිสด නිවසටම ලබා දීම.',
+    description: 'ගෙදරින් පිටවෙන්න අවශ්‍ය නැහැ.අවශ්‍ය grocery items  HariහරිGo සමඟ ඉක්මනින් හා පහසුවෙන් .',
     icon: '🛒',
   },
   {
     title: 'ආහාර බෙදාහැරීම',
-    description: 'ඉක්මණින් සහ සුපිරි කාර්යමය ලෙස තැන්පත් කළ ආහාර.',
+    description: 'ඔබගේ ප්‍රියතම අවන්හල්වලින් සහ ආහාර සැපයුම්කරුවන්ගෙන් ඇණවුම් කළ ආහාර ඉක්මනින්.',
     icon: '🍱',
   },
   {
     title: 'පැකේජ සහ ලියකියවිලි',
-    description: 'එම දිනේ සහය දීම සඳහා පැකේජ, ලිපි සහ ඉක්මන් භාණ්ඩ.',
+    description: 'එදිනම විශ්වාසනීය හා වේගවත් බෙදාහැරීම.',
     icon: '📦',
   },
   {
@@ -25,7 +25,7 @@ const services = [
     icon: '🏠',
   },
   {
-    title: 'අභිරුචි ඉල්ලීම්',
+    title: 'විශේෂ ඇණවුම්',
     description: 'ප්‍රදේශයේ ඕනෑම වෙළඳසැලකින් ඔබට අවශ්‍ය දේ ලබා ගැනීම.',
     icon: '✨',
   },
@@ -33,57 +33,57 @@ const services = [
 
 const processSteps = [
   {
-    title: 'ඔබේ ඇනවුම තබන්න',
-    detail: 'දුරකථන, WhatsApp හෝ වෙබ් අඩවියෙන් එකම පණිවිඩයකින් ඉල්ලා සිටින්න.',
+    title: 'ඔබගේ ඇණවුම ලබාදෙන්න',
+    detail: 'දුරකථන ඇමතුමක්, WhatsApp පණිවිඩයක් හෝ වෙබ් අඩවිය හරහා ඔබගේ අවශ්‍යතාවය අපට දැනුම් දෙන්න.',
   },
   {
-    title: 'ඉක්මනින් තහවුරු කරයි',
-    detail: 'අපේ කණ්ඩායම ඔබේ ඉල්ලීම තහවුරු කර, අසළම බෙදාහැරීම් හවුල්කරුවෙක් පවරයි.',
+    title: 'ඇණවුම තහවුරු කිරීම',
+    detail: 'අපගේ කණ්ඩායම ඔබගේ ඇණවුම තහවුරු කර ඉක්මනින් ක්‍රියාත්මක කිරීමට සූදානම් වෙයි.',
   },
   {
-    title: 'උගුල ගෙන, අනුගමනය කරයි',
-    detail: 'අමතර තත්වයන් කිසිවක් නැතිව අපි ඔබේ වස්තුව ඉක්මනින් රැගෙන යන අතර බෙදාහැරූ දක්වා යාවත්කාලීන කරමු.',
+    title: 'භාණ්ඩ ලබාගෙන ගමන ආරම්භ කිරීම',
+    detail: 'ඔබට අවශ්‍ය භාණ්ඩ, ආහාර, ඖෂධ හෝ ලියකියවිලි ලබාගෙන ආරක්ෂිතව ඔබ වෙත රැගෙන එන්නෙමු.',
   },
   {
-    title: 'ආරක්ෂිතව බෙදාහැරේ',
-    detail: 'නිවසට හෝ කාර්යාලය වෙත ප්‍රීමිම කාර්යමය සහ සැලකිලිමත් සේවාවෙන් ගෙන්වා දෙයි.',
+    title: 'ආරක්ෂිත බෙදාහැරීම',
+    detail: 'ඔබගේ නිවසට හෝ කාර්යාලයට නියමිත වේලාවට, ආරක්ෂිතව සහ විශ්වාසනීයව බෙදාහැරීම සිදු කරයි.',
   },
 ];
 
 const testimonials = [
   {
-    quote: 'HariහරිGo මට ව්‍යාජ දිනයක උදව් කරලා — මගේ සැකසුම් 30 මිනිත්තුට අඩු කාලයක් තුළම පැමිණියේය.',
-    name: 'නදීෂා සිල්වා',
-    role: 'අලෙවිකරණ නායක',
+    quote:'HariහරිGo නිසා මට ගොඩක් කාලය ඉතිරි වුණා. අවශ්‍ය භාණ්ඩ විනාඩි 30කටත් අඩු කාලයකින් මගේ නිවසටම ලැබුණා.',
+    name: 'Nadeesha Silva',
+    role: 'Marketing Manager',
   },
   {
-    quote: 'විශ්වාසදායක, ඉක්මන් සහ මධ්‍යස්ථ කිරීම පහසුයි. කණ්ඩායම මගේ ඖෂධය සැලකිලිමත්ව බෙදාදුන්හ.',
-    name: 'චතු පෙරේරා',
-    role: 'ස්ටාර්ට්අප් ආරම්භක',
+    quote: "විශ්වාසනීය, ඉක්මන් සහ භාවිතයට ඉතා පහසු සේවාවක්. මගේ ඖෂධ ඇණවුම ඉතා සැලකිලිමත්ව ලැබුණි .",
+    name: 'Chathura Perera',
+    role: 'Business Owner',
   },
   {
-    quote: 'ඉක්මන් පැකේජ සඳහා හොඳ සේවාවක්. සහය දැනටමත් පිළිතුරු දුන්නා.',
-    name: 'මලර් කුමාරි',
-    role: 'වැඩ කරන අම්මා',
+    quote: 'හදිසි පැකේජ බෙදාහැරීම් සඳහා හොඳම සේවාවක්. කණ්ඩායම ඉක්මනින් ප්‍රතිචාර දුන්නා සහ සේවාවත් විශිෂ්ටයි.',
+    name: 'Malar Kumari',
+    role: 'Housewife',
   },
 ];
 
 const faqs = [
   {
-    question: 'මගේ ඇණවුම ප්‍රමාද වන්නේ කොහොමද?',
-    answer: 'ඔබේ ස්ථානය සහ සේවා වර්ගය අනුව බොහෝ ඇණවුම් මිනිත්තු 30-60 අතර පමණ පැමිණේ.',
+    question: 'මගේ ඇණවුම ලැබෙන්න කොපමණ කාලයක් ගතවේද?',
+    answer: 'ඔබගේ ස්ථානය සහ සේවාවේ ස්වභාවය අනුව බොහෝ ඇණවුම් මිනිත්තු 30 සිට 60 අතර කාලයක් තුළ බෙදාහැරේ.',
   },
   {
-    question: 'ඔබට කවර ප්‍රදේශ ආවරණය කරනවද?',
-    answer: 'අපි ප්‍රධාන නගරාදියන් සහ අසළ ප්‍රදේශ ආවරණය කරනවා. විස්තර සඳහා පහළ ඇති සිතියමේ බලන්න.',
+    question: 'ඔබ සේවාව ලබාදෙන ප්‍රදේශ මොනවාද?',
+    answer: 'බෙලිඅත්ත, තංගල්ල සහ අවට ප්‍රදේශ ආවරණය කරමින් සේවාව සපයන්නෙමු.',
   },
   {
-    question: 'මට මගේ බෙදාහැරීම පසුබැසිය හැකිද?',
-    answer: 'ඔව්, ඔබගේ ඇණවුම ගමන් කරනකොට WhatsApp සහ SMS මගින් යථාර්ථ කාලීන යාවත්කාලීන ලබා දෙනවා.',
+    question: 'මගේ ඇණවුම නිරීක්ෂණය කළ හැකිද?',
+    answer: 'ඔව්. ඔබගේ ඇණවුමේ තත්ත්වය පිළිබඳ WhatsApp හෝ දුරකථන මාර්ගයෙන් යාවත්කාලීන ලබා ගත හැක.',
   },
   {
-    question: 'අවම ඇණවුම් වටිනාකමක් තියෙනවද?',
-    answer: 'අවම ඇණවුම් වටිනාකමක් අවශ්‍ය නැහැ. බෙදාහැරීම් ගාස්තු දුරස්ථතාවය සහ ඉක්මනින් අවශ්‍යතාවය මත වෙනස් වෙනවා.',
+    question: 'අවම ඇණවුම් වටිනාකමක් තිබේද?',
+    answer: 'නැහැ. අවම ඇණවුම් වටිනාකමක් අවශ්‍ය නොවේ. බෙදාහැරීමේ ගාස්තුව දුර, භාණ්ඩයේ ස්වභාවය සහ සේවාවේ හදිසිභාවය අනුව තීරණය වේ.',
   },
 ];
 
@@ -103,7 +103,7 @@ export default function HomePage() {
         <div className="container mx-auto px-6 py-4 lg:px-8">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <a href="#home" className="flex items-center gap-3 text-sm font-semibold text-slate-900">
-              <img src="/logo.svg" alt="HariහරිGo logo" className="h-12 w-auto" />
+              <img src="/haiharigo/logo.svg" alt="HariහරිGo logo" className="h-12 w-auto" />
             </a>
             <nav className="hidden gap-8 text-sm font-medium text-slate-600 md:flex">
               <a href="#services" className="hover:text-slate-900">Services</a>
@@ -113,9 +113,6 @@ export default function HomePage() {
               <a href="#contact" className="hover:text-slate-900">Contact</a>
             </nav>
             <div className="flex items-center gap-3">
-              <a href="tel:+94123456789" className="hidden rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 md:inline-block">
-                දැන් අමතන්න
-              </a>
               <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-[#0A2F6B] px-5 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#0c3478]">
                 දැන් ඇනවුම් කරන්න
               </a>
@@ -125,7 +122,7 @@ export default function HomePage() {
       </header>
 
       <section className="relative w-full overflow-hidden bg-slate-100">
-        <img src="/baner.png" alt="HariහරිGo banner" className="w-full h-auto max-h-[520px] object-contain" />
+        <img src="/haiharigo/baner.png" alt="HariහරිGo banner" className="w-full h-auto max-h-[520px] object-contain" />
         {/* Optional small decorative overlay - place your image at public/overlay.png */}
       </section>
 
@@ -138,14 +135,6 @@ export default function HomePage() {
               <p className="max-w-2xl text-sm leading-6 text-slate-700 sm:text-base">
                 Fast, safe delivery for medicines, groceries, food and daily essentials with a Sinhala-English friendly service look and feel.
               </p>
-              <div className="flex flex-col gap-3 sm:flex-row">
-                <a href="#contact" className="inline-flex justify-center rounded-full bg-[#0A2F6B] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#0c3478]">
-                  දැන් ඇනවුම් කරන්න
-                </a>
-                <a href="https://wa.me/94712345678?text=Hi%20Hari%E0%B7%84%E0%B6%BB%E0%B7%92Go%20team,%20I%20need%20delivery%20support." target="_blank" rel="noreferrer" className="inline-flex justify-center rounded-full border border-[#0A2F6B] bg-white px-5 py-3 text-sm font-semibold text-[#0A2F6B] transition hover:bg-slate-100">
-                  WhatsApp හරහා ඇමතුම් කරන්න
-                </a>
-              </div>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               <div className="rounded-[1.75rem] bg-[#0A2F6B] p-4 text-white shadow-soft">
@@ -173,19 +162,11 @@ export default function HomePage() {
                 </div>
                 <div className="space-y-6">
                   <h1 className="section-title max-w-3xl">
-                    One call, any service.
+                    One call, Any service.
                   </h1>
                   <p className="max-w-2xl text-lg leading-8 text-slate-700">
-                    ඖෂධ, නිතර භාණ්ඩ, පැකේජ සහ ප්‍රධාන අවශ්‍ය ද්‍රව්‍ය ඔබේ දොරටුවට delivery එකක් වගේම WhatsApp link එකෙන් හෝ call එකකින් ඉක්මනින් ගෙන එයි.
+                    ඔබගේ කාලය වටිනා නිසා, ඖෂධ, ආහාර, නිතර අවශ්‍ය භාණ්ඩ, පැකේජ සහ ලිපි ලේඛන වැනි සියලුම අවශ්‍යතා ඉක්මනින් හා විශ්වාසනීයව ඔබ වෙත ගෙන එයි HariහරිGo. WhatsApp පණිවිඩයක් හෝ දුරකථන ඇමතුමක් පමණක් ප්‍රමාණවත්. ඉතිරිය අපි බලාගන්නෙමු.
                   </p>
-                </div>
-                <div className="flex flex-col gap-3 sm:flex-row">
-                  <a href="#contact" className="w-full sm:w-auto inline-flex items-center justify-center rounded-full bg-[#0A2F6B] px-7 py-4 text-sm font-semibold text-white shadow-soft transition hover:bg-[#0c3478] text-center">
-                    දැන් ඇනවුම් කරන්න
-                  </a>
-                  <a href="https://wa.me/94707173730?text=Hi%20Hari%E0%B7%84%E0%B6%BB%E0%B7%92Go%20team,%20I%20need%20delivery%20support." target="_blank" rel="noreferrer" className="w-full sm:w-auto inline-flex items-center justify-center rounded-full border border-[#0A2F6B] bg-white px-7 py-4 text-sm font-semibold text-[#0A2F6B] transition hover:bg-slate-100 text-center">
-                    WhatsApp හරහා ඇමතුම් කරන්න
-                  </a>
                 </div>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div className="rounded-3xl bg-white/90 px-5 py-6 shadow-soft">
@@ -194,7 +175,7 @@ export default function HomePage() {
                   </div>
                   <div className="rounded-3xl bg-white/90 px-5 py-6 shadow-soft">
                     <p className="text-sm uppercase tracking-[0.24em] text-slate-500">දෛනික බෙදාහැරීම්</p>
-                    <p className="mt-3 text-3xl font-bold text-[#58C13D]">347</p>
+                    <p className="mt-3 text-3xl font-bold text-[#58C13D]">347+</p>
                   </div>
                 </div>
               </div>
@@ -203,7 +184,7 @@ export default function HomePage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {/* Documents Card */}
                 <div className="overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition">
-                  <img src="/document.png" alt="Documents delivery" className="h-40 sm:h-48 lg:h-56 w-full object-cover" />
+                  <img src="/haiharigo/document.png" alt="Documents delivery" className="h-40 sm:h-48 lg:h-56 w-full object-cover" />
                   <div className="p-4">
                     <p className="text-[10px] uppercase tracking-[0.28em] font-semibold text-slate-500">Documents</p>
                     <h4 className="mt-2 text-base font-semibold text-slate-900">Paperwork delivery</h4>
@@ -213,7 +194,7 @@ export default function HomePage() {
 
                 {/* Food Card */}
                 <div className="overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition">
-                  <img src="/food.png" alt="Food delivery" className="h-40 sm:h-48 lg:h-56 w-full object-cover" />
+                  <img src="/haiharigo/food.png" alt="Food delivery" className="h-40 sm:h-48 lg:h-56 w-full object-cover" />
                   <div className="p-4">
                     <p className="text-[10px] uppercase tracking-[0.28em] font-semibold text-slate-500">Food</p>
                     <h4 className="mt-2 text-base font-semibold text-slate-900">Groceries & meals</h4>
@@ -223,7 +204,7 @@ export default function HomePage() {
 
                 {/* Gas Card */}
                 <div className="overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-xl transition">
-                  <img src="/gas.png" alt="Gas delivery" className="h-40 sm:h-48 lg:h-56 w-full object-cover" />
+                  <img src="/haiharigo/gas.png" alt="Gas delivery" className="h-40 sm:h-48 lg:h-56 w-full object-cover" />
                   <div className="p-4">
                     <p className="text-[10px] uppercase tracking-[0.28em] font-semibold text-slate-500">Gas</p>
                     <h4 className="mt-2 text-base font-semibold text-slate-900">Fuel essentials</h4>
@@ -240,17 +221,17 @@ export default function HomePage() {
         <section id="services" className="space-y-8">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#58C13D]">Our Services</p>
-            <h2 className="section-title mt-3">Any need, any time.</h2>
-            <p className="mt-4 max-w-2xl text-slate-600">ඉක්මනින් අවශ්‍ය ඖෂධ, grocery items, food සහ daily essentials HariහරිGo සමඟ විශ්වාසයෙන් ලබා ගන්න.</p>
+            <h2 className="section-title mt-3">Any need, Any time.</h2>
+            <p className="mt-4 max-w-2xl text-slate-600">ඔබට අවශ්‍ය දේ, අවශ්‍ය වේලාවට. ඖෂධ, groceries, food සහ දෛනික අවශ්‍යතා HariහරිGo සමඟ ඉක්මනින් හා විශ්වාසනීයව ලබා ගන්න.</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {services.map((service) => (
-              <article key={service.title} className="glass-card p-6 transition hover:-translate-y-1 hover:shadow-soft">
-                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-3xl bg-[#0A2F6B] text-2xl text-white shadow-lg shadow-[#0A2F6B]/15">
+            {services.map((service, idx) => (
+              <article key={service.title} className="glass-card p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-soft-xl cursor-pointer group">
+                <div className="mb-5 inline-flex h-14 w-14 items-center justify-center rounded-3xl bg-gradient-to-br from-[#0A2F6B] to-[#0c3478] text-2xl text-white shadow-lg shadow-[#0A2F6B]/25 group-hover:scale-110 transition-transform duration-300">
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900">{service.title}</h3>
-                <p className="mt-3 text-slate-600">{service.description}</p>
+                <p className="mt-3 text-slate-600 group-hover:text-slate-700 transition-colors duration-300">{service.description}</p>
               </article>
             ))}
           </div>
@@ -260,14 +241,15 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#E11D2E]">How it works</p>
             <h2 className="section-title mt-3">Simple steps for speed.</h2>
-            <p className="mt-4 max-w-2xl text-slate-600">අපගේ delivery process එක every order එකට clear, secure සහ fast වනවා — ඔබට only need to focus on your request.</p>
+            <p className="mt-4 max-w-2xl text-slate-600">අපගේ delivery process එක සෑම order එකක් සඳහාම පැහැදිලි, ආරක්ෂිත සහ වේගවත් ලෙස සැලසුම් කර ඇත. ඔබ කළ යුත්තේ ඔබගේ අවශ්‍යතාවය අපට දැනුම් දීම පමණි.</p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {processSteps.map((step, index) => (
-              <div key={step.title} className="glass-card p-6">
-                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0A2F6B] text-lg font-bold text-white">{index + 1}</span>
-                <h3 className="text-lg font-semibold text-slate-900">{step.title}</h3>
-                <p className="mt-3 text-slate-600">{step.detail}</p>
+              <div key={step.title} className="glass-card p-6 transition-all duration-300 hover:shadow-soft-lg hover:-translate-y-1 relative overflow-hidden group">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#58C13D]/10 to-[#0A2F6B]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <span className="relative mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-r from-[#0A2F6B] to-[#0c3478] text-lg font-bold text-white">{index + 1}</span>
+                <h3 className="relative text-lg font-semibold text-slate-900">{step.title}</h3>
+                <p className="relative mt-3 text-slate-600">{step.detail}</p>
               </div>
             ))}
           </div>
@@ -277,7 +259,8 @@ export default function HomePage() {
           <div className="space-y-6">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">About</p>
             <h2 className="section-title">Your modern delivery partner for urgent needs.</h2>
-            <p className="max-w-2xl text-slate-600">HariහරිGo provides delivery for medicines, groceries, food, parcels, documents and daily essentials. අපේ goal එක වන්නේ busy people ලට needed items හොඳින්, fast, secure වශයෙන් deliver කිරීම.</p>
+            <p className="max-w-2xl text-slate-600">HariහරිGo යනු Medicines, Groceries, Food, Parcels, Documents සහ දෛනික අවශ්‍ය භාණ්ඩ සඳහා විශ්වාසනීය delivery service එකකි.
+අපගේ අරමුණ වන්නේ කාර්යබහුල ඔබගේ  සහ businesses සඳහා අවශ්‍ය භාණ්ඩ ඉක්මනින්, ආරක්ෂිතව සහ පහසුවෙන් ලබාදීමයි. ඔබේ කාලය ඉතිරි කරමින්, විශ්වාසනීය සේවාවක් ලබාදීම අපගේ ප්‍රමුඛතාවයයි.</p>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl border border-slate-200/80 bg-white p-6 shadow-soft">
                 <span className="text-sm uppercase tracking-[0.2em] text-slate-500">Speed</span>
@@ -294,15 +277,15 @@ export default function HomePage() {
             <ul className="mt-8 space-y-5 text-slate-100">
               <li className="flex gap-4">
                 <span className="mt-1 inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-[#58C13D] text-lg">✓</span>
-                <span>තත්පර 24ක් සහ දින 7ක් ලබා ගත හැකි සහ දැන්ම පිළිතුරු.</span>
+                <span>ඔබේ කාලය ඉතිරි කරන ඉක්මන් හා විශ්වාසනීය සේවාව.</span>
               </li>
               <li className="flex gap-4">
                 <span className="mt-1 inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-[#58C13D] text-lg">✓</span>
-                <span>යථාර්ථ කාලීන ප්‍රවේශය සමඟ ප්‍රිමියම් බෙදාහැරීමේ හවුල්කරුවන්.</span>
+                <span>ඔබට අවශ්‍ය ඕනෑම දෙයක්, අවශ්‍ය තැනට සහ වේලාවට</span>
               </li>
               <li className="flex gap-4">
                 <span className="mt-1 inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-[#58C13D] text-lg">✓</span>
-                <span>පුද්ගලික සහ ව්‍යාපාරික අවශ්‍යතා සඳහා සැලසුම් කළ පුළුල් සේවාව.</span>
+                <span>පුද්ගලික හා ව්‍යාපාරික අවශ්‍යතා සඳහා එකම විසඳුම.</span>
               </li>
             </ul>
           </div>
@@ -339,9 +322,9 @@ export default function HomePage() {
             <h2 className="section-title mt-3">Loved by customers who need service now.</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
-            {testimonials.map((item) => (
-              <article key={item.name} className="glass-card p-6">
-                <p className="text-slate-700">“{item.quote}”</p>
+            {testimonials.map((item, idx) => (
+              <article key={item.name} className="glass-card p-6 transition-all duration-300 hover:shadow-soft-lg hover:scale-105 cursor-pointer">
+                <p className="text-slate-700 italic">"{item.quote}"</p>
                 <div className="mt-6 border-t border-slate-200/80 pt-5">
                   <p className="font-semibold text-slate-900">{item.name}</p>
                   <p className="text-sm text-slate-500">{item.role}</p>

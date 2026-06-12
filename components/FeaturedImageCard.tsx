@@ -3,10 +3,10 @@
 import { useState } from 'react';
 
 export default function FeaturedImageCard() {
-  const [imageSrc, setImageSrc] = useState('/hero-extra.png');
+  const [imageSrc, setImageSrc] = useState('/haiharigo/hero-extra.png');
 
   const handleImageError = () => {
-    setImageSrc('/baner.png');
+    setImageSrc('/haiharigo/baner.png');
   };
 
   return (
