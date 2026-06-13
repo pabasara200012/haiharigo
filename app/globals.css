@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 50%, #f3f7ff 100%);
   position: relative;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -30,6 +31,12 @@ body::before {
               radial-gradient(circle at 80% 80%, rgba(10, 47, 107, 0.08) 0%, transparent 50%);
   pointer-events: none;
   z-index: -1;
+}
+
+@layer utilities {
+  .screen-fit {
+    @apply mx-auto max-w-full px-4 sm:px-6;
+  }
 }
 
 * {
@@ -118,6 +125,34 @@ textarea {
     height: 200%;
     background: radial-gradient(circle, rgba(88, 193, 61, 0.3) 0%, transparent 70%);
     animation: pulse 3s ease-in-out infinite;
+  }
+
+  .marquee-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .marquee-track {
+    animation: marquee 28s linear infinite;
+  }
+
+  .shop-card {
+    @apply rounded-[2rem] border border-slate-200 bg-slate-50 p-5 shadow-soft min-w-[260px];
+  }
+
+  .shop-card:hover {
+    @apply shadow-soft-lg;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 

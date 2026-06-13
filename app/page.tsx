@@ -96,11 +96,50 @@ const coverageAreas = [
   'Nuwara Eliya',
 ];
 
+const partnerStores = [
+  {
+    name: 'Beliatta Pharmacy',
+    category: 'Pharmacy',
+    location: 'Beliatta Town',
+    logo: '💊',
+  },
+  {
+    name: 'Fresh Market Groceries',
+    category: 'Grocery',
+    location: 'Beliatta Road',
+    logo: '🛒',
+  },
+  {
+    name: 'Seaside Kitchen',
+    category: 'Restaurant',
+    location: 'Beliatta Junction',
+    logo: '🍲',
+  },
+  {
+    name: 'Style Corner',
+    category: 'Clothing',
+    location: 'Main Street',
+    logo: '👚',
+  },
+  {
+    name: 'Fresh Bakery',
+    category: 'Bakery',
+    location: 'Market Lane',
+    logo: '🥐',
+  },
+  {
+    name: 'Daily Essentials',
+    category: 'Convenience',
+    location: 'City Center',
+    logo: '🧺',
+  },
+];
+
 export default function HomePage() {
   return (
     <main className="relative overflow-x-hidden bg-white">
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-xl">
-        <div className="container mx-auto px-6 py-4 lg:px-8">
+        <div className="container mx-auto px-3 sm:px-4 py-4 lg:px-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <a href="#home" className="flex items-center gap-3 text-sm font-semibold text-slate-900">
               <img src="/haiharigo/logo.svg" alt="HariහරිGo logo" className="h-12 w-auto" />
@@ -109,6 +148,7 @@ export default function HomePage() {
               <a href="#services" className="hover:text-slate-900">Services</a>
               <a href="#process" className="hover:text-slate-900">Process</a>
               <a href="#about" className="hover:text-slate-900">About</a>
+              <a href="#partner-stores" className="hover:text-slate-900">Partner Stores</a>
               <a href="#coverage" className="hover:text-slate-900">Coverage</a>
               <a href="#contact" className="hover:text-slate-900">Contact</a>
             </nav>
@@ -126,7 +166,7 @@ export default function HomePage() {
         {/* Optional small decorative overlay - place your image at public/overlay.png */}
       </section>
 
-      <div className="container mx-auto -mt-10 sm:-mt-16 md:-mt-20 lg:-mt-32 px-6 lg:px-8">
+      <div className="container mx-auto -mt-10 sm:-mt-16 md:-mt-20 lg:-mt-32 px-3 sm:px-4 lg:px-6">
         <div className="mx-auto max-w-5xl rounded-[2rem] border border-white/20 bg-white/90 p-4 shadow-2xl backdrop-blur-xl sm:p-6">
           <div className="grid gap-4 lg:grid-cols-[1.4fr_0.95fr] lg:items-center">
             <div className="space-y-3 text-slate-900">
@@ -152,9 +192,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="container mx-auto px-6 py-6 lg:px-8">
+      <div className="container mx-auto px-3 sm:px-4 py-6 lg:px-6">
         <section id="home" className="relative overflow-hidden bg-hero-glow py-16">
-          <div className="container mx-auto px-6 lg:px-8">
+          <div className="mx-auto w-full px-3 sm:px-4 lg:px-6">
             <div className="grid gap-12 lg:grid-cols-[1.2fr_1.3fr] lg:items-center">
               <div className="space-y-8">
                 <div className="inline-flex items-center gap-3 rounded-full border border-[#58C13D]/20 bg-[#58C13D]/10 px-4 py-2 text-sm font-semibold text-[#0A2F6B]">
@@ -217,7 +257,7 @@ export default function HomePage() {
         </section>
     </div>
 
-      <div className="container mx-auto px-6 py-16 lg:px-8">
+      <div className="container mx-auto px-3 sm:px-4 py-16 lg:px-6">
         <section id="services" className="space-y-8">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#58C13D]">Our Services</p>
@@ -234,6 +274,48 @@ export default function HomePage() {
                 <p className="mt-3 text-slate-600 group-hover:text-slate-700 transition-colors duration-300">{service.description}</p>
               </article>
             ))}
+          </div>
+        </section>
+
+        <section id="partner-stores" className="mt-20 space-y-8">
+          <div className="max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Trusted Local Partners</p>
+            <h2 className="section-title mt-3">Trusted Local Partners</h2>
+            <p className="mt-4 max-w-2xl text-slate-600">Explore our connected stores in Beliatta and order your essentials through HariහරිGo.</p>
+          </div>
+
+          <div className="rounded-[2rem] border border-slate-200 bg-white p-4 shadow-soft">
+            <div className="flex items-center justify-between gap-4">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#58C13D]">Partner Stores</p>
+                <h3 className="mt-2 text-2xl font-bold text-slate-900">Local shops connected with HariහරිGo</h3>
+              </div>
+              <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-slate-600">
+                Beliatta area
+              </span>
+            </div>
+
+            <div className="marquee-container mt-8 overflow-x-auto overflow-y-hidden scroll-smooth touch-pan-x">
+              <div className="marquee-track flex gap-5">
+                {partnerStores.concat(partnerStores).map((store, idx) => (
+                  <article key={`${store.name}-${idx}`} className="shop-card min-w-[260px] flex-shrink-0 scroll-snap-align-center">
+                    <div className="flex items-center gap-4">
+                      <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-br from-[#0A2F6B] to-[#58C13D] text-2xl text-white shadow-lg">
+                        {store.logo}
+                      </div>
+                      <div>
+                        <h4 className="text-lg font-semibold text-slate-900">{store.name}</h4>
+                        <p className="text-sm text-slate-500">{store.category}</p>
+                      </div>
+                    </div>
+                    <div className="mt-5 flex items-center justify-between gap-4 text-sm text-slate-600">
+                      <span className="rounded-2xl bg-slate-100 px-3 py-2">{store.location}</span>
+                      <a href="#contact" className="inline-flex items-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478]">Order Now</a>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
@@ -398,7 +480,7 @@ export default function HomePage() {
       </a>
 
       <footer className="border-t border-slate-200 py-8 bg-slate-50">
-        <div className="container mx-auto px-6 text-center text-sm text-slate-500 lg:px-8">
+        <div className="container mx-auto px-3 sm:px-4 text-center text-sm text-slate-500 lg:px-6">
           © 2026 HariහරිGo. ඖෂධ, පාරිභෝගික භාණ්ඩ, ආහාර, පැකේජ, ලියකියවිලි සහ දෛනික අවශ්‍යතා සඳහා ප්‍රිමියම් බෙදාහැරීම් සේවාවන්.
         </div>
       </footer>
