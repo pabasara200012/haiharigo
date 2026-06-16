@@ -102,36 +102,42 @@ const partnerStores = [
     category: 'Pharmacy',
     location: 'Beliatta Town',
     logo: '💊',
+    url: 'https://beliatta-pharmacy.example.com',
   },
   {
     name: 'Fresh Market Groceries',
     category: 'Grocery',
     location: 'Beliatta Road',
     logo: '🛒',
+    url: 'https://freshmarket-beliatta.example.com',
   },
   {
     name: 'Seaside Kitchen',
     category: 'Restaurant',
     location: 'Beliatta Junction',
     logo: '🍲',
+    url: 'https://seaside-kitchen.example.com',
   },
   {
     name: 'Style Corner',
     category: 'Clothing',
     location: 'Main Street',
     logo: '👚',
+    url: 'https://style-corner.example.com',
   },
   {
     name: 'Fresh Bakery',
     category: 'Bakery',
     location: 'Market Lane',
     logo: '🥐',
+    url: 'https://fresh-bakery.example.com',
   },
   {
     name: 'Daily Essentials',
     category: 'Convenience',
     location: 'City Center',
     logo: '🧺',
+    url: 'https://daily-essentials.example.com',
   },
 ];
 
@@ -310,7 +316,7 @@ export default function HomePage() {
                     </div>
                     <div className="mt-5 flex items-center justify-between gap-4 text-sm text-slate-600">
                       <span className="rounded-2xl bg-slate-100 px-3 py-2">{store.location}</span>
-                      <a href="#contact" className="inline-flex items-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478]">Order Now</a>
+                      <a href={store.url ?? '#contact'} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478]">Visit Page</a>
                     </div>
                   </article>
                 ))}
