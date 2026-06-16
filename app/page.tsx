@@ -103,6 +103,7 @@ const partnerStores = [
     location: 'Beliatta Town',
     logo: '💊',
     url: 'https://beliatta-pharmacy.example.com',
+    image: '/haiharigo/partner-logos/beliatta-pharmacy.png',
   },
   {
     name: 'Fresh Market Groceries',
@@ -110,6 +111,7 @@ const partnerStores = [
     location: 'Beliatta Road',
     logo: '🛒',
     url: 'https://freshmarket-beliatta.example.com',
+    image: '/haiharigo/partner-logos/fresh-market-groceries.png',
   },
   {
     name: 'Seaside Kitchen',
@@ -117,6 +119,7 @@ const partnerStores = [
     location: 'Beliatta Junction',
     logo: '🍲',
     url: 'https://seaside-kitchen.example.com',
+    image: '/haiharigo/partner-logos/seaside-kitchen.png',
   },
   {
     name: 'Style Corner',
@@ -124,6 +127,7 @@ const partnerStores = [
     location: 'Main Street',
     logo: '👚',
     url: 'https://style-corner.example.com',
+    image: '/haiharigo/partner-logos/style-corner.png',
   },
   {
     name: 'Fresh Bakery',
@@ -131,6 +135,7 @@ const partnerStores = [
     location: 'Market Lane',
     logo: '🥐',
     url: 'https://fresh-bakery.example.com',
+    image: '/haiharigo/partner-logos/fresh-bakery.png',
   },
   {
     name: 'Daily Essentials',
@@ -138,6 +143,7 @@ const partnerStores = [
     location: 'City Center',
     logo: '🧺',
     url: 'https://daily-essentials.example.com',
+    image: '/haiharigo/partner-logos/daily-essentials.png',
   },
 ];
 
@@ -306,9 +312,13 @@ export default function HomePage() {
                 {partnerStores.concat(partnerStores).map((store, idx) => (
                   <article key={`${store.name}-${idx}`} className="shop-card min-w-[260px] flex-shrink-0 scroll-snap-align-center">
                     <div className="flex items-center gap-4">
-                      <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-br from-[#0A2F6B] to-[#58C13D] text-2xl text-white shadow-lg">
-                        {store.logo}
-                      </div>
+                      {store.image ? (
+                        <img src={store.image} alt={store.name} className="h-16 w-16 rounded-3xl object-cover shadow-lg" />
+                      ) : (
+                        <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-gradient-to-br from-[#0A2F6B] to-[#58C13D] text-2xl text-white shadow-lg">
+                          {store.logo}
+                        </div>
+                      )}
                       <div>
                         <h4 className="text-lg font-semibold text-slate-900">{store.name}</h4>
                         <p className="text-sm text-slate-500">{store.category}</p>
@@ -316,7 +326,7 @@ export default function HomePage() {
                     </div>
                     <div className="mt-5 flex items-center justify-between gap-4 text-sm text-slate-600">
                       <span className="rounded-2xl bg-slate-100 px-3 py-2">{store.location}</span>
-                      <a href={store.url ?? '#contact'} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478]">Visit Page</a>
+                      <a href={store.url ?? '#contact'} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478]">Visit Now</a>
                     </div>
                   </article>
                 ))}
