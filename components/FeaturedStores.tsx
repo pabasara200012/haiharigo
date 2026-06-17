@@ -26,7 +26,7 @@ export function FeaturedStores({
           </div>
           <Link
             href="/stores"
-            className="inline-flex w-full items-center justify-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478] sm:w-auto"
+            className="inline-flex items-center justify-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478]"
           >
             View all
           </Link>
