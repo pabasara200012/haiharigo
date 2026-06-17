@@ -20,7 +20,7 @@ export default function StoresPage() {
           <h1 className="section-title">{brand.name} partner stores</h1>
           <p className="max-w-2xl text-slate-600">These are the stores currently onboarded into the marketplace. Each one has its own SEO-friendly store page.</p>
         </div>
-        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           {partnerStores.map((store) => (
             <PartnerStoreCard key={store.id} store={store} variant="full" />
           ))}

@@ -108,7 +108,7 @@ export const partnerStores: PartnerStore[] = [
     phone: '+94 71 234 5678',
     whatsapp: '+94712345678',
     address: 'Main Road, Beliatta, Sri Lanka',
-    logo: '/partner-logos/beliatta-pharmacy.svg',
+    logo: '/haiharigo/partner-logos/beliatta-pharmacy.svg',
     coverImage: '/haiharigo/images/banner.png',
     hours: [
       { day: 'Mon', hours: '07:00 - 21:00' },
@@ -161,7 +161,7 @@ export const partnerStores: PartnerStore[] = [
     phone: '+94 71 345 6789',
     whatsapp: '+94713456789',
     address: 'Beliatta Road, Beliatta, Sri Lanka',
-    logo: '/partner-logos/fresh-market-groceries.svg',
+    logo: '/haiharigo/partner-logos/fresh-market-groceries.svg',
     coverImage: '/haiharigo/images/banner.png',
     hours: [
       { day: 'Mon', hours: '07:00 - 20:30' },
@@ -213,7 +213,7 @@ export const partnerStores: PartnerStore[] = [
     phone: '+94 71 456 7890',
     whatsapp: '+94714567890',
     address: 'Beliatta Junction, Beliatta, Sri Lanka',
-    logo: '/partner-logos/seaside-kitchen.svg',
+    logo: '/haiharigo/partner-logos/seaside-kitchen.svg',
     coverImage: '/haiharigo/images/banner.png',
     hours: [
       { day: 'Mon', hours: '08:00 - 22:00' },
@@ -265,7 +265,7 @@ export const partnerStores: PartnerStore[] = [
     phone: '+94 71 567 8901',
     whatsapp: '+94715678901',
     address: 'Shopping Arcade, Main Street, Beliatta, Sri Lanka',
-    logo: '/partner-logos/style-corner.svg',
+    logo: '/haiharigo/partner-logos/style-corner.svg',
     coverImage: '/haiharigo/images/banner.png',
     hours: [
       { day: 'Mon', hours: '09:00 - 19:00' },
@@ -317,7 +317,7 @@ export const partnerStores: PartnerStore[] = [
     phone: '+94 71 678 9012',
     whatsapp: '+94716789012',
     address: 'Market Lane, Beliatta, Sri Lanka',
-    logo: '/partner-logos/fresh-bakery.svg',
+    logo: '/haiharigo/partner-logos/fresh-bakery.svg',
     coverImage: '/haiharigo/images/banner.png',
     hours: [
       { day: 'Mon', hours: '06:00 - 18:00' },
@@ -369,7 +369,7 @@ export const partnerStores: PartnerStore[] = [
     phone: '+94 71 789 0123',
     whatsapp: '+94717890123',
     address: 'City Center, Beliatta, Sri Lanka',
-    logo: '/partner-logos/daily-essentials.svg',
+    logo: '/haiharigo/partner-logos/daily-essentials.svg',
     coverImage: '/haiharigo/images/banner.png',
     hours: [
       { day: 'Mon', hours: '06:00 - 22:00' },

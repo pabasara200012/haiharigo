@@ -31,12 +31,14 @@ export function FeaturedStores({
             View all
           </Link>
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-5 px-0 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {partnerStores.map((store) => (
-            <div key={store.id} className="w-full min-w-0">
+        <div className="mt-8 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide pb-2">
+          <div className="flex gap-6">
+            {partnerStores.map((store) => (
+            <div key={store.id} className="w-[320px] flex-shrink-0 snap-start">
               <PartnerStoreCard store={store} />
             </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
