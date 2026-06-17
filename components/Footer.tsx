@@ -4,8 +4,9 @@ export function Footer() {
   return (
     <footer className="relative w-full overflow-hidden border-t border-slate-200 bg-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-4 xl:gap-12">
-          <div className="min-w-0 space-y-4">
+        <div className="overflow-x-auto pb-2">
+          <div className="flex min-w-max gap-8 xl:grid xl:min-w-0 xl:grid-cols-4 xl:gap-12">
+          <div className="w-[280px] shrink-0 space-y-4 xl:w-auto xl:min-w-0">
             <Link href="/" className="inline-flex max-w-full items-center gap-3 text-slate-900">
               <img src="/haiharigo/images/logo.svg" alt="HariහරිGo logo" className="h-10 w-auto" />
             </Link>
@@ -17,7 +18,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="min-w-0">
+          <div className="w-[280px] shrink-0 xl:w-auto xl:min-w-0">
             <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Quick Links</h3>
             <ul className="mt-4 grid gap-3 text-sm text-slate-600">
               <li><Link href="/" className="inline-flex transition hover:text-[#0A2F6B]">Home</Link></li>
@@ -27,7 +28,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="min-w-0">
+          <div className="w-[280px] shrink-0 xl:w-auto xl:min-w-0">
             <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Services</h3>
             <ul className="mt-4 grid gap-3 text-sm text-slate-600">
               <li>Medicine Delivery</li>
@@ -37,7 +38,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="min-w-0">
+          <div className="w-[280px] shrink-0 xl:w-auto xl:min-w-0">
             <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Contact</h3>
             <ul className="mt-4 space-y-5 text-sm text-slate-600">
               <li>
@@ -68,6 +69,7 @@ export function Footer() {
                 <p className="mt-1 font-medium text-slate-700">Beliatta and surrounding areas</p>
               </li>
             </ul>
+          </div>
           </div>
         </div>
 
