@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <rect width="480" height="480" rx="60" fill="#E11D2E"/>
+  <path d="M140 180h200l-20 120H160l-20-120z" fill="#fff"/>
+  <path d="M220 140c0-25.4 20.6-46 46-46s46 20.6 46 46v40H220v-40z" fill="#fff"/>
+  <text x="50%" y="430" fill="#fff" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Kitchen</text>
+</svg>

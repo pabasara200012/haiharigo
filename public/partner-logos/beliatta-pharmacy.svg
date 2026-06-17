@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <rect width="480" height="480" rx="60" fill="#0A2F6B"/>
+  <rect x="120" y="120" width="240" height="240" rx="40" fill="#58C13D"/>
+  <path d="M220 180h40v120h-40z" fill="#0A2F6B"/>
+  <path d="M180 220h120v40H180z" fill="#0A2F6B"/>
+  <text x="50%" y="430" fill="#fff" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Pharmacy</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <rect width="480" height="480" rx="60" fill="#F59E0B"/>
+  <path d="M160 220c0-44.2 35.8-80 80-80s80 35.8 80 80v100H160V220z" fill="#fff"/>
+  <path d="M180 220h120v100H180z" fill="#F97316"/>
+  <text x="50%" y="430" fill="#7C2D12" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Bakery</text>
+</svg>
