@@ -4,9 +4,8 @@ export function Footer() {
   return (
     <footer className="relative w-full overflow-hidden border-t border-slate-200 bg-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="max-h-[420px] overflow-y-auto pr-2 xl:max-h-none xl:overflow-visible xl:pr-0">
-          <div className="flex flex-col gap-8 xl:grid xl:grid-cols-4 xl:gap-12">
-          <div className="w-full space-y-4 xl:min-w-0">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-4 xl:gap-12">
+          <div className="space-y-4">
             <Link href="/" className="inline-flex max-w-full items-center gap-3 text-slate-900">
               <img src="/haiharigo/images/logo.svg" alt="HariහරිGo logo" className="h-10 w-auto" />
             </Link>
@@ -18,7 +17,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="w-full xl:min-w-0">
+          <div>
             <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Quick Links</h3>
             <ul className="mt-4 grid gap-3 text-sm text-slate-600">
               <li><Link href="/" className="inline-flex transition hover:text-[#0A2F6B]">Home</Link></li>
@@ -28,7 +27,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="w-full xl:min-w-0">
+          <div>
             <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Services</h3>
             <ul className="mt-4 grid gap-3 text-sm text-slate-600">
               <li>Medicine Delivery</li>
@@ -38,7 +37,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="w-full xl:min-w-0">
+          <div>
             <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0A2F6B]">Contact</h3>
             <ul className="mt-4 space-y-5 text-sm text-slate-600">
               <li>
@@ -69,7 +68,6 @@ export function Footer() {
                 <p className="mt-1 font-medium text-slate-700">Beliatta and surrounding areas</p>
               </li>
             </ul>
-          </div>
           </div>
         </div>
 
