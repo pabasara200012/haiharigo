@@ -18,24 +18,25 @@ export function FeaturedStores({
         <h2 className="section-title mt-3">{title}</h2>
         <p className="mt-4 max-w-2xl text-slate-600">{subtitle}</p>
       </div>
-      <div className="rounded-[2rem] border border-slate-200 bg-white p-4 shadow-soft">
-        <div className="flex items-center justify-between gap-4">
-          <div>
+      <div className="rounded-[2rem] border border-slate-200 bg-white p-4 shadow-soft sm:p-5 lg:p-6">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="min-w-0">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#58C13D]">Partner Stores</p>
-            <h3 className="mt-2 text-2xl font-bold text-slate-900">Local shops connected with HariහරිGo</h3>
+            <h3 className="mt-2 text-xl font-bold leading-tight text-slate-900 sm:text-2xl">Local shops connected with HariහරිGo</h3>
           </div>
-          <Link href="/stores" className="inline-flex items-center rounded-full bg-slate-100 px-3 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-slate-600 transition hover:bg-slate-200">
+          <Link
+            href="/stores"
+            className="inline-flex w-full items-center justify-center rounded-full bg-[#0A2F6B] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#0c3478] sm:w-auto"
+          >
             View all
           </Link>
         </div>
-        <div className="marquee-container mt-8 overflow-x-auto overflow-y-hidden scroll-smooth touch-pan-x">
-          <div className="marquee-track flex gap-5">
-            {partnerStores.map((store) => (
-              <div key={store.id} className="min-w-[280px] flex-shrink-0 scroll-snap-align-center">
-                <PartnerStoreCard store={store} />
-              </div>
-            ))}
-          </div>
+        <div className="mt-8 grid grid-cols-1 gap-5 px-0 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {partnerStores.map((store) => (
+            <div key={store.id} className="w-full min-w-0">
+              <PartnerStoreCard store={store} />
+            </div>
+          ))}
         </div>
       </div>
     </section>
