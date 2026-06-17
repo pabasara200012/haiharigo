@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <rect width="480" height="480" rx="60" fill="#58C13D"/>
+  <circle cx="240" cy="180" r="90" fill="#fff"/>
+  <path d="M240 120c-33.1 0-60 26.9-60 60s26.9 60 60 60 60-26.9 60-60-26.9-60-60-60zm0 110c-27.6 0-50-22.4-50-50s22.4-50 50-50 50 22.4 50 50-22.4 50-50 50z" fill="#0A2F6B"/>
+  <text x="50%" y="430" fill="#0A2F6B" font-family="Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Groceries</text>
+</svg>
